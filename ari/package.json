@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "ncc build ./src/main.ts"
+  },
+  "devDependencies": {
+    "@types/ari-client": "^2.2.13",
+    "@types/node": "^22.14.1",
+    "@vercel/ncc": "^0.38.3",
+    "ari-client": "^2.2.0",
+    "typescript": "^5.8.3"
+  }
+}
